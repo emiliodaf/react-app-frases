@@ -43,12 +43,14 @@
   background-color: #00aeffc5;
 }
 
-.text-phrase {
-  color: #242424;
+.textoFrase {
   background-color: #fff;
-  border: solid 4px #00aeffc5;
+  color: #147fdc;
+  font-size: 20px;
+  text-align: center;
+  border: solid 2px blueviolet;
   border-radius: 4px;
-  padding: 14px 5px;
-  cursor: pointer;
+  
 }
+
 
