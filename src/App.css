@@ -40,7 +40,7 @@
 
 .button-phrase {
   color: #fff;
-  background-color: #00aeffc5;
+  background-color: #147fdc;
 }
 
 .textoFrase {
@@ -48,8 +48,9 @@
   color: #147fdc;
   font-size: 20px;
   text-align: center;
-  border: solid 2px blueviolet;
+  border: solid 4px #e2772b;
   border-radius: 4px;
+  padding: 5px 10px;
   
 }
 
