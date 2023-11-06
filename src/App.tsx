@@ -37,7 +37,7 @@ function App() {
         "Success is not final, failure is not fatal: it is the courage to continue that counts",
         "You are never too old to set another goal or to dream a new dream",
         "Go confidently in the direction of your dreams. Live the life you have imagined",
-        "When you believe you can and you're halfway there",
+        "When you believe you can you're halfway there",
 
         
       ]
@@ -62,7 +62,7 @@ function App() {
         className="logo"
       />
 
-      <h2 className="title">Categorias</h2>
+      <h2 className="title">Categories</h2>
       <section className="category-area">
         {allFrases.map( (item, index) => (
           <button 
@@ -80,7 +80,7 @@ function App() {
         ) )}
       </section>
 
-      <button className="button-frase" onClick={gerarFrase}>Gerar frase</button>
+      <button className="button-frase" onClick={gerarFrase}>Generate Phrase</button>
 
       {textoFrase !== '' && <p className="textoFrase">{textoFrase}</p> }
 
